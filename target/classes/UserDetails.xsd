@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://user.blackfridaybank.org" xmlns:tns="http://user.blackfridaybank.org"
+	elementFormDefault="qualified">
+	<!-- xsd data structure -->
+        <!-- <xsd:complexType> <xsd:sequence> <xsd:element></xsd:element> </xsd:sequence> 
+            </xsd:complexType> -->
+	<xsd:complexType name="User">
+		<xsd:sequence>
+			<xsd:element name="UserId" type="xsd:string" />
+			<xsd:element name="UserName" type="xsd:string" />
+			<xsd:element name="UserGender" type="xsd:string" />
+			<xsd:element name="UserStatus" type="xsd:string" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

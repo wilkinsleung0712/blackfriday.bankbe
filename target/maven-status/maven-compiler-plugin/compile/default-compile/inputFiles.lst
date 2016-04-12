@@ -1,0 +1,12 @@
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/dao/UserDao.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/dao/UserDaoImpl.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/webservices/endpoint/UserServicesEndPoint.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/generated/ObjectFactory.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/services/UserServiceImpl.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/generated/package-info.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/services/UserService.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/generated/User.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/generated/UserLoginRequest.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/startup/WebSerivceConfig.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/startup/Startup.java
+/home/weiqiang/2esrc/bankbe/src/main/java/com/blackfriday/generated/UserLoginResponse.java

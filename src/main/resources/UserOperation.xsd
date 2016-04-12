@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.blackfridaybank.org/webservices/UserOperation"
+	xmlns:tns="http://www.blackfridaybank.org/webservices/UserOperation"
+	xmlns:user="http://user.blackfridaybank.org" elementFormDefault="qualified">
+	<xsd:import namespace="http://user.blackfridaybank.org"
+		schemaLocation="UserDetails.xsd">
+	</xsd:import>
+		<!-- xsd method declear structure -->
+		<!-- <xsd:element> <xsd:complexType> <xsd:sequence> <xsd:element></xsd:element> 
+			</xsd:sequence> </xsd:complexType> </xsd:element> -->
+
+		<!-- xsd data structure -->
+		<!-- <xsd:complexType> <xsd:sequence> <xsd:element></xsd:element> </xsd:sequence> 
+			</xsd:complexType> -->
+		<xsd:element name="UserLoginRequest">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="UserId" type="xsd:string" />
+					<xsd:element name="Password" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name="UserLoginResponse">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="userDetails" type="user:User"></xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+</xsd:schema>

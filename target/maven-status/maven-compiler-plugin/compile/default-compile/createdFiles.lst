@@ -1,0 +1,12 @@
+com/blackfriday/generated/User.class
+com/blackfriday/generated/ObjectFactory.class
+com/blackfriday/dao/UserDaoImpl.class
+com/blackfriday/generated/UserLoginRequest.class
+com/blackfriday/startup/WebSerivceConfig.class
+com/blackfriday/startup/Startup.class
+com/blackfriday/dao/UserDao.class
+com/blackfriday/webservices/endpoint/UserServicesEndPoint.class
+com/blackfriday/services/UserServiceImpl.class
+com/blackfriday/generated/UserLoginResponse.class
+com/blackfriday/services/UserService.class
+com/blackfriday/generated/package-info.class
